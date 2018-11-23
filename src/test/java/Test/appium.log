@@ -1,0 +1,306 @@
+2018-10-23 16:28:16:435 - info: [Appium] Welcome to Appium v1.9.2-beta.2
+2018-10-23 16:28:16:435 - info: [Appium] Non-default server args:
+2018-10-23 16:28:16:436 - info: [Appium]   log: /Users/wangkai/wjjWorkSpace/appium.log
+2018-10-23 16:28:16:436 - info: [Appium]   logTimestamp: true
+2018-10-23 16:28:16:436 - info: [Appium]   localTimezone: true
+2018-10-23 16:28:16:437 - info: [Appium]   debugLogSpacing: true
+2018-10-23 16:28:16:453 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-10-23 16:28:29:799 - info: [HTTP] --> POST /wd/hub/session
+2018-10-23 16:28:29:799 - info: [HTTP] {"desiredCapabilities":{"appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","platformName":"Android","deviceName":"aaa"},"capabilities":{"alwaysMatch":{"appium:appActivity":".ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"UiAutomator2","appium:deviceName":"aaa","platformName":"android"},"firstMatch":[{}]}}
+2018-10-23 16:28:29:803 - info: [debug] [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","platformName":"Android","deviceName":"aaa"},null,{"alwaysMatch":{"appium:appActivity":".ApiDemos","appium:appPackage":"io.appium.android.apis","appium:automationName":"UiAutomator2","appium:deviceName":"aaa","platformName":"android"},"firstMatch":[{}]}]
+2018-10-23 16:28:29:804 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1540283309803 (16:28:29 GMT+0800 (CST))
+2018-10-23 16:28:29:810 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.22.0) session
+2018-10-23 16:28:29:810 - info: [Appium] Capabilities:
+2018-10-23 16:28:29:810 - info: [Appium]   platformName: android
+2018-10-23 16:28:29:811 - info: [Appium]   appActivity: .ApiDemos
+2018-10-23 16:28:29:811 - info: [Appium]   appPackage: io.appium.android.apis
+2018-10-23 16:28:29:811 - info: [Appium]   automationName: UiAutomator2
+2018-10-23 16:28:29:811 - info: [Appium]   deviceName: aaa
+2018-10-23 16:28:29:814 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":".ApiDemos",... were provided
+2018-10-23 16:28:29:815 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-10-23 16:28:29:820 - info: [BaseDriver] Session created with session id: 5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:30:011 - info: [AndroidDriver] Java version is: 1.8.0_65
+2018-10-23 16:28:30:013 - info: [ADB] Checking whether adb is present
+2018-10-23 16:28:30:019 - info: [ADB] Found 1 'build-tools' folders under '/Users/wangkai/tools/android-sdk-macosx' (newest first):
+2018-10-23 16:28:30:019 - info: [ADB]     /Users/wangkai/tools/android-sdk-macosx/build-tools/28.0.2
+2018-10-23 16:28:30:020 - info: [ADB] Using adb from /Users/wangkai/tools/android-sdk-macosx/platform-tools/adb
+2018-10-23 16:28:30:021 - info: [AndroidDriver] Retrieving device list
+2018-10-23 16:28:30:021 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-23 16:28:30:022 - info: [debug] [ADB] Getting connected devices...
+2018-10-23 16:28:30:032 - info: [debug] [ADB] 1 device(s) connected
+2018-10-23 16:28:30:032 - info: [AndroidDriver] Using device: 192.168.56.101:5555
+2018-10-23 16:28:30:034 - info: [debug] [ADB] Setting device id to 192.168.56.101:5555
+2018-10-23 16:28:30:035 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell getprop ro.build.version.sdk'
+2018-10-23 16:28:30:056 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 21
+2018-10-23 16:28:30:057 - info: [debug] [ADB] Device API level: 21
+2018-10-23 16:28:30:058 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-10-23 16:28:30:062 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-23 16:28:30:063 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ps'
+2018-10-23 16:28:30:092 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am force-stop io.appium.uiautomator2.server'
+2018-10-23 16:28:30:431 - info: [debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.2.1.apk
+2018-10-23 16:28:30:433 - info: [ADB] Using apksigner from /Users/wangkai/tools/android-sdk-macosx/build-tools/28.0.2/apksigner
+2018-10-23 16:28:30:434 - info: [debug] [ADB] Starting '/Users/wangkai/tools/android-sdk-macosx/build-tools/28.0.2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.2.1.apk"]'
+2018-10-23 16:28:31:005 - info: [debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-10-23 16:28:31:005 - info: [debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-10-23 16:28:31:005 - info: [debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-10-23 16:28:31:006 - info: [debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-10-23 16:28:31:006 - info: [debug] [ADB]
+2018-10-23 16:28:31:006 - info: [debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.2.1.apk' is already signed.
+2018-10-23 16:28:31:006 - info: [debug] [ADB] Checking app cert for /usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2018-10-23 16:28:31:007 - info: [debug] [ADB] Starting '/Users/wangkai/tools/android-sdk-macosx/build-tools/28.0.2/apksigner' with args '["verify","--print-certs","/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2018-10-23 16:28:31:502 - info: [debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-10-23 16:28:31:502 - info: [debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-10-23 16:28:31:502 - info: [debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-10-23 16:28:31:502 - info: [debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-10-23 16:28:31:503 - info: [debug] [ADB]
+2018-10-23 16:28:31:503 - info: [debug] [ADB] '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2018-10-23 16:28:31:504 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server
+2018-10-23 16:28:31:504 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.uiautomator2.server'
+2018-10-23 16:28:31:518 - info: [debug] [ADB] 'io.appium.uiautomator2.server' is installed
+2018-10-23 16:28:31:519 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2018-10-23 16:28:31:519 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.uiautomator2.server'
+2018-10-23 16:28:31:534 - info: [ADB] Checking whether aapt is present
+2018-10-23 16:28:31:535 - info: [ADB] Using aapt from /Users/wangkai/tools/android-sdk-macosx/build-tools/28.0.2/aapt
+2018-10-23 16:28:31:542 - info: [debug] [ADB] The installed 'io.appium.uiautomator2.server' package does not require upgrade ('2.2.1' >= '2.2.1')
+2018-10-23 16:28:31:542 - info: [debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-10-23 16:28:31:542 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-10-23 16:28:31:556 - info: [debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+2018-10-23 16:28:31:556 - info: [debug] [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2018-10-23 16:28:31:556 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-10-23 16:28:31:576 - warn: [ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-10-23 16:28:31:576 - warn: [ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2018-10-23 16:28:31:576 - info: [debug] [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-10-23 16:28:31:577 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm list instrumentation'
+2018-10-23 16:28:31:869 - info: [debug] [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-10-23 16:28:31:870 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 wait-for-device'
+2018-10-23 16:28:31:877 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell echo ping'
+2018-10-23 16:28:31:886 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-23 16:28:31:886 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-23 16:28:31:887 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.settings'
+2018-10-23 16:28:31:908 - info: [debug] [ADB] 'io.appium.settings' is installed
+2018-10-23 16:28:31:908 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-10-23 16:28:31:908 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.settings'
+2018-10-23 16:28:31:927 - info: [debug] [ADB] The installed 'io.appium.settings' package is older than '/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.8.0@io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk' (3 < 10 or '2.1.0' < '2.8.0')'. Executing upgrade
+2018-10-23 16:28:31:928 - info: [debug] [ADB] Device API level: 21
+2018-10-23 16:28:31:928 - info: [debug] [ADB] Skipping granting permissions for '/usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.8.0@io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk', since the current API level 21 does not support applications permissions customization
+2018-10-23 16:28:31:928 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 install -r /usr/local/lib/node_modules/appium/node_modules/_io.appium.settings\@2.8.0\@io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk'
+2018-10-23 16:28:32:274 - info: [debug] [ADB] Install command stdout: [100%] /data/local/tmp/settings_apk-debug.apk
+2018-10-23 16:28:32:274 - info: [debug] [ADB] /usr/local/lib/node_modules/appium/node_modules/_io.appium.settings@2.8.0@io.appium.settings/app/build/o... file pushed. 15.2 MB/s (51343 bytes in 0.003s)
+2018-10-23 16:28:32:274 - info: [debug] [ADB] 	pkg: /data/local/tmp/settings_apk-debug.apk
+2018-10-23 16:28:32:275 - info: [debug] [ADB] Failure [INSTALL_PARSE_FAILED_INCONSISTENT_CERTIFICATES]
+2018-10-23 16:28:32:275 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ps'
+2018-10-23 16:28:32:292 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-10-23 16:28:32:293 - info: [debug] [ADB] Device API level: 21
+2018-10-23 16:28:32:293 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell settings put secure mock_location 1'
+2018-10-23 16:28:32:592 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-10-23 16:28:32:592 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-10-23 16:28:32:593 - info: [debug] [Logcat] Starting logcat capture
+2018-10-23 16:28:32:606 - info: [debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2018-10-23 16:28:32:607 - info: [debug] [ADB] Forwarding system: 8200 to device: 6790
+2018-10-23 16:28:32:608 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 forward tcp\:8200 tcp\:6790'
+2018-10-23 16:28:32:629 - info: [debug] [UiAutomator2] No app capability. Assuming it is already on the device
+2018-10-23 16:28:32:631 - info: [debug] [ADB] Getting install status for io.appium.android.apis
+2018-10-23 16:28:32:631 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys package io.appium.android.apis'
+2018-10-23 16:28:32:661 - info: [debug] [ADB] 'io.appium.android.apis' is installed
+2018-10-23 16:28:32:663 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am force-stop io.appium.android.apis'
+2018-10-23 16:28:32:976 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell pm clear io.appium.android.apis'
+2018-10-23 16:28:33:291 - info: [debug] [AndroidDriver] Performed fast reset on the installed 'io.appium.android.apis' application (stop and clear)
+2018-10-23 16:28:33:292 - info: [debug] [ADB] Checking app cert for null
+2018-10-23 16:28:33:305 - info: [debug] [ADB] 'null' doesn't exist
+2018-10-23 16:28:33:305 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-23 16:28:33:305 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell ps'
+2018-10-23 16:28:33:324 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am force-stop io.appium.uiautomator2.server'
+2018-10-23 16:28:33:624 - info: [UiAutomator2] Starting uiautomator2 server 2.2.1
+2018-10-23 16:28:33:624 - info: [UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.2.1.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/_appium-uiautomator2-server@2.2.1@appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2018-10-23 16:28:33:625 - info: [UiAutomator2] Running command: 'adb -s 192.168.56.101:5555 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-10-23 16:28:33:627 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-10-23 16:28:33:628 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-10-23 16:28:33:629 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-10-23 16:28:33:641 - warn: [JSONWP Proxy] Got an unexpected response: {"code":"ECONNRESET","errno":"ECONNRESET","syscall":"read"}
+2018-10-23 16:28:34:644 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-10-23 16:28:34:645 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-10-23 16:28:34:650 - warn: [JSONWP Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2018-10-23 16:28:35:654 - info: [debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-10-23 16:28:35:655 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-10-23 16:28:35:672 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-10-23 16:28:35:672 - info: [debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-10-23 16:28:35:673 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"aaa"},"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"192.168.56.101:5555","deviceUDID":"192.168.56.101:5555"}}
+2018-10-23 16:28:35:687 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":"Created Session"}
+2018-10-23 16:28:35:694 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/appium/device/info] with no body
+2018-10-23 16:28:35:705 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":{\"androidId\":\"119b965395bfcd4f\",\"manufacturer\":\"unknown\",\"model\":\"Google Nexus 7 - 5.0.0 - API 21 - 800x1280\",\"brand\":\"generic\",\"apiVersion\":\"21\",\"platformVersion\":\"5.0\",\"carrierName\":\"Android\",\"realDisplaySize\":\"800x1280\",\"displayDensity\":213}}"
+2018-10-23 16:28:35:706 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell dumpsys window'
+2018-10-23 16:28:35:728 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-23 16:28:35:729 - info: [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'io.appium.android.apis/.ApiDemos'. Starting it ourselves
+2018-10-23 16:28:35:730 - info: [debug] [ADB] Device API level: 21
+2018-10-23 16:28:35:731 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am start -W -n io.appium.android.apis/.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-10-23 16:28:36:840 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/appium/device/pixel_ratio] with body: {}
+2018-10-23 16:28:36:857 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":1.3312501}"
+2018-10-23 16:28:36:861 - info: [debug] [JSONWP Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2018-10-23 16:28:36:861 - info: [debug] [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/appium/device/system_bars] with body: {}
+2018-10-23 16:28:36:887 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":{\"statusBar\":33}}"
+2018-10-23 16:28:36:888 - info: [debug] [JSONWP Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2018-10-23 16:28:36:889 - info: [debug] [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/window/current/size] with body: {}
+2018-10-23 16:28:36:908 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":{\"height\":1216,\"width\":800}}"
+2018-10-23 16:28:36:911 - info: [Appium] New AndroidUiautomator2Driver session created successfully, session 5fb4377a-932a-4b7c-91a4-872cbaa8ab55 added to master session list
+2018-10-23 16:28:36:913 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1540283316912 (16:28:36 GMT+0800 (CST))
+2018-10-23 16:28:36:914 - info: [debug] [W3C (5fb4377a)] Cached the protocol value 'W3C' for the new session 5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:36:915 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"aaa"},"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"192.168.56.101:5555","deviceUDID":"192.168.56.101:5555","deviceApiLevel":21,"platformVersion":"5.0","deviceScreenSize":"800x1280","deviceScreenDensity":213,"deviceModel":"Google Nexus 7 - 5.0.0 - API 21 - 800x1280","deviceManufacturer":"unknown","pixelRatio":1.3312501,"statBarHeight":33,"viewportRect":{"left":0,"top":33,"width":800,"height":1183}}}
+2018-10-23 16:28:36:921 - info: [HTTP] <-- POST /wd/hub/session 200 7120 ms - 909
+2018-10-23 16:28:36:921 - info: [HTTP]
+2018-10-23 16:28:37:020 - info: [HTTP] --> GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:37:020 - info: [HTTP] {}
+2018-10-23 16:28:37:021 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.getSession() with args: ["5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:040 - info: [debug] [UiAutomator2] Getting session details from server to mix in
+2018-10-23 16:28:37:041 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-10-23 16:28:37:041 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79] with body: {}
+2018-10-23 16:28:37:081 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":{}}"
+2018-10-23 16:28:37:082 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"aaa"},"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"192.168.56.101:5555","deviceUDID":"192.168.56.101:5555","deviceApiLevel":21,"platformVersion":"5.0","deviceScreenSize":"800x1280","deviceScreenDensity":213,"deviceModel":"Google Nexus 7 - 5.0.0 - API 21 - 800x1280","deviceManufacturer":"unknown","pixelRatio":1.3312501,"statBarHeight":33,"viewportRect":{"left":0,"top":33,"width":800,"height":1183}}
+2018-10-23 16:28:37:084 - info: [HTTP] <-- GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55 200 64 ms - 841
+2018-10-23 16:28:37:085 - info: [HTTP]
+2018-10-23 16:28:37:100 - info: [HTTP] --> GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:37:100 - info: [HTTP] {}
+2018-10-23 16:28:37:100 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.getSession() with args: ["5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:103 - info: [debug] [UiAutomator2] Getting session details from server to mix in
+2018-10-23 16:28:37:103 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-10-23 16:28:37:104 - info: [debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79] with body: {}
+2018-10-23 16:28:37:119 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":{}}"
+2018-10-23 16:28:37:120 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"aaa"},"platformName":"android","appActivity":".ApiDemos","appPackage":"io.appium.android.apis","automationName":"UiAutomator2","deviceName":"192.168.56.101:5555","deviceUDID":"192.168.56.101:5555","deviceApiLevel":21,"platformVersion":"5.0","deviceScreenSize":"800x1280","deviceScreenDensity":213,"deviceModel":"Google Nexus 7 - 5.0.0 - API 21 - 800x1280","deviceManufacturer":"unknown","pixelRatio":1.3312501,"statBarHeight":33,"viewportRect":{"left":0,"top":33,"width":800,"height":1183}}
+2018-10-23 16:28:37:121 - info: [HTTP] <-- GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55 200 21 ms - 841
+2018-10-23 16:28:37:122 - info: [HTTP]
+2018-10-23 16:28:37:137 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/timeouts
+2018-10-23 16:28:37:137 - info: [HTTP] {"implicit":10000}
+2018-10-23 16:28:37:138 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:139 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2018-10-23 16:28:37:140 - info: [debug] [BaseDriver] Set implicit wait to 10000ms
+2018-10-23 16:28:37:140 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.timeouts() result: null
+2018-10-23 16:28:37:141 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/timeouts 200 4 ms - 14
+2018-10-23 16:28:37:141 - info: [HTTP]
+2018-10-23 16:28:37:146 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element
+2018-10-23 16:28:37:147 - info: [HTTP] {"using":"accessibility id","value":"Views"}
+2018-10-23 16:28:37:148 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.findElement() with args: ["accessibility id","Views","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:149 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-23 16:28:37:149 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-10-23 16:28:37:150 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-10-23 16:28:37:151 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element] with body: {"strategy":"accessibility id","selector":"Views","context":"","multiple":false}
+2018-10-23 16:28:37:888 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":{"ELEMENT":"cf568d70-0ced-4be9-ade2-e400cbdb6562"}}
+2018-10-23 16:28:37:889 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cf568d70-0ced-4be9-ade2-e400cbdb6562"}
+2018-10-23 16:28:37:890 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element 200 743 ms - 88
+2018-10-23 16:28:37:890 - info: [HTTP]
+2018-10-23 16:28:37:905 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/cf568d70-0ced-4be9-ade2-e400cbdb6562/click
+2018-10-23 16:28:37:905 - info: [HTTP] {"id":"cf568d70-0ced-4be9-ade2-e400cbdb6562"}
+2018-10-23 16:28:37:906 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.click() with args: ["cf568d70-0ced-4be9-ade2-e400cbdb6562","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:913 - info: [debug] [JSONWP Proxy] Matched '/element/cf568d70-0ced-4be9-ade2-e400cbdb6562/click' to command name 'click'
+2018-10-23 16:28:37:913 - info: [debug] [JSONWP Proxy] Proxying [POST /element/cf568d70-0ced-4be9-ade2-e400cbdb6562/click] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element/cf568d70-0ced-4be9-ade2-e400cbdb6562/click] with body: {"element":"cf568d70-0ced-4be9-ade2-e400cbdb6562"}
+2018-10-23 16:28:37:925 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":true}
+2018-10-23 16:28:37:926 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.click() result: true
+2018-10-23 16:28:37:929 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/cf568d70-0ced-4be9-ade2-e400cbdb6562/click 200 22 ms - 14
+2018-10-23 16:28:37:929 - info: [HTTP]
+2018-10-23 16:28:37:935 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element
+2018-10-23 16:28:37:935 - info: [HTTP] {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).getChildByText(new UiSelector().className(\"android.widget.TextView\"), \"Popup Menu\")"}
+2018-10-23 16:28:37:935 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector().scrollable(true).instance(0)).getChildByText(new UiSelector().className(\"android.widget.TextView\"), \"Popup Menu\")","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:37:936 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-23 16:28:37:936 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-10-23 16:28:37:937 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-10-23 16:28:37:937 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).getChildByText(new UiSelector().className(\"android.widget.TextView\"), \"Popup Menu\")","context":"","multiple":false}
+2018-10-23 16:28:42:639 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":{"ELEMENT":"ff3ee273-1cb7-4101-876a-d02899a3956f"}}
+2018-10-23 16:28:42:639 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ff3ee273-1cb7-4101-876a-d02899a3956f"}
+2018-10-23 16:28:42:640 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element 200 4705 ms - 88
+2018-10-23 16:28:42:640 - info: [HTTP]
+2018-10-23 16:28:42:644 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/ff3ee273-1cb7-4101-876a-d02899a3956f/click
+2018-10-23 16:28:42:645 - info: [HTTP] {"id":"ff3ee273-1cb7-4101-876a-d02899a3956f"}
+2018-10-23 16:28:42:645 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.click() with args: ["ff3ee273-1cb7-4101-876a-d02899a3956f","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:42:646 - info: [debug] [JSONWP Proxy] Matched '/element/ff3ee273-1cb7-4101-876a-d02899a3956f/click' to command name 'click'
+2018-10-23 16:28:42:646 - info: [debug] [JSONWP Proxy] Proxying [POST /element/ff3ee273-1cb7-4101-876a-d02899a3956f/click] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element/ff3ee273-1cb7-4101-876a-d02899a3956f/click] with body: {"element":"ff3ee273-1cb7-4101-876a-d02899a3956f"}
+2018-10-23 16:28:43:493 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":true}
+2018-10-23 16:28:43:494 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.click() result: true
+2018-10-23 16:28:43:494 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/ff3ee273-1cb7-4101-876a-d02899a3956f/click 200 850 ms - 14
+2018-10-23 16:28:43:495 - info: [HTTP]
+2018-10-23 16:28:43:500 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element
+2018-10-23 16:28:43:501 - info: [HTTP] {"using":"accessibility id","value":"Make a Popup!"}
+2018-10-23 16:28:43:501 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.findElement() with args: ["accessibility id","Make a Popup!","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:43:502 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-23 16:28:43:502 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-10-23 16:28:43:503 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-10-23 16:28:43:503 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element] with body: {"strategy":"accessibility id","selector":"Make a Popup!","context":"","multiple":false}
+2018-10-23 16:28:44:015 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":{"ELEMENT":"0a9ad0c1-658b-453a-9408-d07ff7fef4db"}}
+2018-10-23 16:28:44:016 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"0a9ad0c1-658b-453a-9408-d07ff7fef4db"}
+2018-10-23 16:28:44:017 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element 200 516 ms - 88
+2018-10-23 16:28:44:017 - info: [HTTP]
+2018-10-23 16:28:44:022 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/0a9ad0c1-658b-453a-9408-d07ff7fef4db/click
+2018-10-23 16:28:44:023 - info: [HTTP] {"id":"0a9ad0c1-658b-453a-9408-d07ff7fef4db"}
+2018-10-23 16:28:44:026 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.click() with args: ["0a9ad0c1-658b-453a-9408-d07ff7fef4db","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:44:028 - info: [debug] [JSONWP Proxy] Matched '/element/0a9ad0c1-658b-453a-9408-d07ff7fef4db/click' to command name 'click'
+2018-10-23 16:28:44:028 - info: [debug] [JSONWP Proxy] Proxying [POST /element/0a9ad0c1-658b-453a-9408-d07ff7fef4db/click] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element/0a9ad0c1-658b-453a-9408-d07ff7fef4db/click] with body: {"element":"0a9ad0c1-658b-453a-9408-d07ff7fef4db"}
+2018-10-23 16:28:44:036 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":true}
+2018-10-23 16:28:44:037 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.click() result: true
+2018-10-23 16:28:44:038 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/0a9ad0c1-658b-453a-9408-d07ff7fef4db/click 200 15 ms - 14
+2018-10-23 16:28:44:038 - info: [HTTP]
+2018-10-23 16:28:44:044 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element
+2018-10-23 16:28:44:045 - info: [HTTP] {"using":"-android uiautomator","value":"new UiSelector().text(\"Edit\")"}
+2018-10-23 16:28:44:045 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"Edit\")","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:44:048 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-23 16:28:44:049 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-10-23 16:28:44:049 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-10-23 16:28:44:049 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Edit\")","context":"","multiple":false}
+2018-10-23 16:28:44:771 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":{"ELEMENT":"558e444e-ec14-4ab0-ac47-18119d280f5d"}}
+2018-10-23 16:28:44:772 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"558e444e-ec14-4ab0-ac47-18119d280f5d"}
+2018-10-23 16:28:44:772 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element 200 728 ms - 88
+2018-10-23 16:28:44:773 - info: [HTTP]
+2018-10-23 16:28:44:777 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/558e444e-ec14-4ab0-ac47-18119d280f5d/click
+2018-10-23 16:28:44:777 - info: [HTTP] {"id":"558e444e-ec14-4ab0-ac47-18119d280f5d"}
+2018-10-23 16:28:44:778 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.click() with args: ["558e444e-ec14-4ab0-ac47-18119d280f5d","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:44:779 - info: [debug] [JSONWP Proxy] Matched '/element/558e444e-ec14-4ab0-ac47-18119d280f5d/click' to command name 'click'
+2018-10-23 16:28:44:780 - info: [debug] [JSONWP Proxy] Proxying [POST /element/558e444e-ec14-4ab0-ac47-18119d280f5d/click] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element/558e444e-ec14-4ab0-ac47-18119d280f5d/click] with body: {"element":"558e444e-ec14-4ab0-ac47-18119d280f5d"}
+2018-10-23 16:28:46:156 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":true}
+2018-10-23 16:28:46:157 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.click() result: true
+2018-10-23 16:28:46:157 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/558e444e-ec14-4ab0-ac47-18119d280f5d/click 200 1380 ms - 14
+2018-10-23 16:28:46:157 - info: [HTTP]
+2018-10-23 16:28:46:163 - info: [HTTP] --> POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element
+2018-10-23 16:28:46:163 - info: [HTTP] {"using":"xpath","value":"//*[@class='android.widget.Toast']"}
+2018-10-23 16:28:46:165 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@class='android.widget.Toast']","5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:46:167 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-23 16:28:46:167 - info: [debug] [BaseDriver] Waiting up to 10000 ms for condition
+2018-10-23 16:28:46:168 - info: [debug] [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-10-23 16:28:46:168 - info: [debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element] with body: {"strategy":"xpath","selector":"//*[@class='android.widget.Toast']","context":"","multiple":false}
+2018-10-23 16:28:46:696 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"26369008-cb6d-45fb-ba4e-b7955485dc79","status":0,"value":{"ELEMENT":"d01b855f-3973-45cd-ac96-3afdaaece0b1"}}
+2018-10-23 16:28:46:696 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"d01b855f-3973-45cd-ac96-3afdaaece0b1"}
+2018-10-23 16:28:46:697 - info: [HTTP] <-- POST /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element 200 534 ms - 88
+2018-10-23 16:28:46:697 - info: [HTTP]
+2018-10-23 16:28:46:700 - info: [HTTP] --> GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/d01b855f-3973-45cd-ac96-3afdaaece0b1/text
+2018-10-23 16:28:46:700 - info: [HTTP] {}
+2018-10-23 16:28:46:701 - info: [W3C (5fb4377a)] Driver proxy active, passing request on via HTTP proxy
+2018-10-23 16:28:46:703 - info: [debug] [JSONWP Proxy] Matched '/wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/d01b855f-3973-45cd-ac96-3afdaaece0b1/text' to command name 'getText'
+2018-10-23 16:28:46:703 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/d01b855f-3973-45cd-ac96-3afdaaece0b1/text] to [GET http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79/element/d01b855f-3973-45cd-ac96-3afdaaece0b1/text] with body: {}
+2018-10-23 16:28:46:711 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":\"Clicked popup menu item Edit\"}"
+2018-10-23 16:28:46:712 - info: [JSONWP Proxy] Replacing sessionId 26369008-cb6d-45fb-ba4e-b7955485dc79 with 5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:46:712 - info: [HTTP] <-- GET /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55/element/d01b855f-3973-45cd-ac96-3afdaaece0b1/text 200 12 ms - 102
+2018-10-23 16:28:46:713 - info: [HTTP]
+2018-10-23 16:28:46:717 - info: [HTTP] --> DELETE /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55
+2018-10-23 16:28:46:717 - info: [HTTP] {}
+2018-10-23 16:28:46:718 - info: [debug] [W3C (5fb4377a)] Calling AppiumDriver.deleteSession() with args: ["5fb4377a-932a-4b7c-91a4-872cbaa8ab55"]
+2018-10-23 16:28:46:718 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1540283326718 (16:28:46 GMT+0800 (CST))
+2018-10-23 16:28:46:720 - info: [Appium] Removing session 5fb4377a-932a-4b7c-91a4-872cbaa8ab55 from our master session list
+2018-10-23 16:28:46:721 - info: [debug] [UiAutomator2] Deleting UiAutomator2 session
+2018-10-23 16:28:46:723 - info: [debug] [UiAutomator2] Deleting UiAutomator2 server session
+2018-10-23 16:28:46:724 - info: [debug] [JSONWP Proxy] Matched '/' to command name 'deleteSession'
+2018-10-23 16:28:46:724 - info: [debug] [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/26369008-cb6d-45fb-ba4e-b7955485dc79] with no body
+2018-10-23 16:28:46:736 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"26369008-cb6d-45fb-ba4e-b7955485dc79\",\"status\":0,\"value\":\"Session deleted\"}"
+2018-10-23 16:28:46:736 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 shell am force-stop io.appium.android.apis'
+2018-10-23 16:28:47:205 - info: [debug] [Logcat] Stopping logcat capture
+2018-10-23 16:28:47:211 - info: [debug] [ADB] Removing forwarded port socket connection: 8200
+2018-10-23 16:28:47:211 - info: [debug] [ADB] Running '/Users/wangkai/tools/android-sdk-macosx/platform-tools/adb -P 5037 -s 192.168.56.101\:5555 forward --remove tcp\:8200'
+2018-10-23 16:28:47:224 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1540283327223 (16:28:47 GMT+0800 (CST))
+2018-10-23 16:28:47:225 - info: [debug] [W3C (5fb4377a)] Received response: null
+2018-10-23 16:28:47:225 - info: [debug] [W3C (5fb4377a)] But deleting session, so not returning
+2018-10-23 16:28:47:225 - info: [debug] [W3C (5fb4377a)] Responding to client with driver.deleteSession() result: null
+2018-10-23 16:28:47:227 - info: [HTTP] <-- DELETE /wd/hub/session/5fb4377a-932a-4b7c-91a4-872cbaa8ab55 200 509 ms - 14
+2018-10-23 16:28:47:227 - info: [HTTP]
+2018-10-23 16:28:47:525 - info: [debug] [UiAutomator2] [UIAutomator2]
+2018-10-23 16:28:47:526 - info: [debug] [UiAutomator2] [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+2018-10-23 16:28:47:526 - info: [debug] [UiAutomator2] [UIAutomator2]
+2018-10-23 16:28:47:526 - info: [debug] [UiAutomator2] [UIAutomator2] Time: 13.059
+2018-10-23 16:28:47:526 - info: [debug] [UiAutomator2] [UIAutomator2]
+2018-10-23 16:28:47:527 - info: [debug] [UiAutomator2] [UIAutomator2] OK (1 test)
+2018-10-23 16:28:47:527 - info: [debug] [UiAutomator2] [UIAutomator2]
+2018-10-23 16:28:47:527 - info: [debug] [UiAutomator2] [UIAutomator2]
+2018-10-23 16:30:03:216 - info: [Appium] Received SIGINT - shutting down
