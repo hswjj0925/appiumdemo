@@ -49,6 +49,7 @@ public class Test3 {
 
     @Test
     public void Test() {
+        driver.findElementById("agree").click();
         driver.findElementByAndroidUIAutomator("new UiSelector().text(\"行情\")").click();
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -131,7 +132,7 @@ public class Test3 {
 
     @After
     public void tearDown() {
-        driver.quit();
+//        driver.quit();
 
     }
 

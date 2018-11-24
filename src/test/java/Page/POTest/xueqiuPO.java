@@ -28,14 +28,18 @@ public class xueqiuPO {
 
     @Test
     public void testloginWithPO(){
-        xq.search.click();
-        xq.inputText.sendKeys("小米");
-        xq.stock.click();
-        details.addZiXuan.click();
+       if(xq.ok !=null)
+           xq.ok.click();
+       xq.search.click();
+       xq.inputText.sendKeys("小米");
+       xq.stock.click();
+       details.addZiXuan.click();
    }
 
    @Test
    public void testSwip(){
+       if(xq.ok !=null)
+           xq.ok.click();
        QuotationPage quotationPage = xq.clickQuotation();
        quotationPage.clickNewStockDetail();
 

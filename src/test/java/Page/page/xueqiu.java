@@ -8,6 +8,9 @@ import org.openqa.selenium.WebElement;
 
 public class xueqiu extends baseXueQiuPage {
 
+    @AndroidFindBy(id="agree")
+    public  MobileElement ok;
+
     //个人中心小牛按钮
     @AndroidFindBy(id="user_profile_container")
     public  MobileElement user;
